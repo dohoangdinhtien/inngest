@@ -1,7 +1,6 @@
-FROM inngest/inngest:latest
+FROM node:latest
 
-EXPOSE 8288
-EXPOSE 22
+EXPOSE 828
 
-#CMD ["npx", "inngest-cli@latest", "dev"]
-CMD ["/usr/sbin/sshd","-D"]
+CMD ["npx", "inngest-cli@latest", "dev"]
+# CMD ["/usr/sbin/sshd","-D"]
