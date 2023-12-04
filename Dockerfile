@@ -7,4 +7,6 @@
 
 FROM inngest/inngest:latest
 
+EXPOSE 8288
+
 CMD ["inngest", "serve", "runner"]
